@@ -1,0 +1,25 @@
+{
+  "name": "vuenos-aires.github.io",
+  "version": "1.0.0",
+  "description": "Sitio web de vuenos-aires, meetup de Vue.js en Buenos Aires.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuenos-aires/vuenos-aires.github.io.git"
+  },
+  "keywords": [
+    "vuejs",
+    "meetup",
+    "buenos",
+    "aires"
+  ],
+  "author": "Ignacio Anaya <ignacio.anaya89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuenos-aires/vuenos-aires.github.io/issues"
+  },
+  "homepage": "https://github.com/vuenos-aires/vuenos-aires.github.io#readme"
+}

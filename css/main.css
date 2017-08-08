@@ -1,0 +1,42 @@
+body {
+  padding-top: 40px;
+  font-family: Courier New, Courier, monospace;
+  color: #06BD7E;
+  text-align: center;
+}
+
+a {
+  color: #344960;
+  font-size: 1.5em;
+}
+
+a:hover {
+  color: #fff;
+  background: #344960;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 2em;
+}
+
+img {
+  width: 30%;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+}
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
+  background: #344960;
+}
