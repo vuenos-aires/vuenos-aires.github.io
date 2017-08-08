@@ -1,5 +1,4 @@
 body {
-  padding-top: 20px;
   font-family: Courier New, Courier, monospace;
   color: #06BD7E;
   text-align: center;
@@ -34,6 +33,7 @@ img {
 main {
   margin: auto;
   width: 50%;
+  min-height: 600px;
 }
 
 footer {
@@ -41,9 +41,21 @@ footer {
   left: 0px;
   bottom: 0px;
   height: 100px;
-  padding: 10px;
+  padding: 5px;
   width: 100%;
   background: #344960;
+}
+
+header {
+  height: 30px;
+  padding-top: 5px;
+  text-align: right;
+  width: 100%;
+}
+
+header a {
+  font-size: 1.2em;
+  margin-right: 20px;
 }
 
 footer img {
