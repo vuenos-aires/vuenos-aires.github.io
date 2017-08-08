@@ -6,26 +6,54 @@
       html {
         font-family: Courier New, Courier, monospace;
         color: #06BD7E;
+        text-align: center;
       }
 
       a {
-        color: #344960
+        color: #344960;
+        font-size: 1.5em;
+      }
+
+      a:hover {
+        color: #fff;
+        background: #344960;
+      }
+
+      h1 {
+        font-size: 3em;
+      }
+
+      p {
+        font-size: 2em;
+      }
+
+      img {
+        width: 30%;
+      }
+
+      main {
+        margin: auto;
+        width: 50%;
       }
     </style>
   </head>
   <body>
-    <h1>Vuenos Aires</h1>
-    <p>
-       ✌️ Vuenos Aires, es un meetup donde nos enfocamos en aprender, enseñar y difundir todo lo que tenga que ver con el ecosistema
-      de Vue.js.
-    </p>
+    <main>
+      <h1>Vuenos Aires</h1>
+      <img src="./logo.png" alt="vuenos-aires">
+      <p style="text-align: center">
+        ✌️ Vuenos Aires, es un meetup donde nos enfocamos en aprender, enseñar y difundir todo lo que tenga que ver con el ecosistema
+        de Vue.js.
+      </p>
 
-    <div>
-      <nav>
-        <a href="#">slack</a>
-        <a href="#">twitter</a>
-        <a href="#">github</a>
-      </nav>
-    </div>
+      <div>
+        <nav>
+          <a href="https://www.meetup.com/vuenos-aires" target="_blank">meetup</a>
+          <a href="http://slack.meetupjs.com.ar" target="_blank">slack</a>
+          <a href="htts://twitter.com/vuenosaires" target="_blank">twitter</a>
+          <a href="https://github.com/vuenos-aires" target="_blank">github</a>
+        </nav>
+      </div>
+    </main>
   </body>
 </html>
