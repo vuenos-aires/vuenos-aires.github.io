@@ -1,5 +1,5 @@
 body {
-  padding-top: 40px;
+  padding-top: 20px;
   font-family: Courier New, Courier, monospace;
   color: #06BD7E;
   text-align: center;
@@ -15,12 +15,16 @@ a:hover {
   background: #344960;
 }
 
+nav a {
+  margin-left: 20px;
+}
+
 h1 {
   font-size: 3em;
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 img {
@@ -45,4 +49,5 @@ footer {
 footer img {
   height: 30px;
   width: auto;
+  margin-left: 20px;
 }
