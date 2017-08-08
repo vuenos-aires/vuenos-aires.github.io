@@ -12,3 +12,6 @@
 * [meetup](https://www.meetup.com/vuenos-aires)
 * [slack](http://slack.meetupjs.com.ar)
 * [twitter](https://twitter.com/vuenosaires)
+
+### 🗣 [Propone una Charla](https://github.com/vuenos-aires/charlas)
+### 🚨 [Código de Conducta](https://github.com/vuenos-aires/charlas/blob/master/CONDUCT.md)
