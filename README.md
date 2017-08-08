@@ -1,8 +1,8 @@
 # Vuenos Aires
 
-<p text-align="center">
-  <img width="30%" src="./logo.png">
-</p>
+<div style="text-align:center">
+  <img style="width:30%" src="./logo.png">
+</div>
 
 > ✌️ **Vuenos Aires** es un meetup donde nos enfocamos en aprender, enseñar y difundir todo lo que tenga que ver con el ecosistema de [Vue.js](https://vuejs.org)
 
@@ -11,4 +11,4 @@
 
 * [meetup](https://www.meetup.com/vuenos-aires)
 * [slack](http://slack.meetupjs.com.ar)
-* [twitter](htts://twitter.com/vuenosaires)
+* [twitter](https://twitter.com/vuenosaires)
