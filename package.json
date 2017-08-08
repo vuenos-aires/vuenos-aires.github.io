@@ -4,7 +4,7 @@
   "description": "Sitio web de vuenos-aires, meetup de Vue.js en Buenos Aires.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/vuenos-aires/vuenos-aires.github.io/issues"
   },
-  "homepage": "https://github.com/vuenos-aires/vuenos-aires.github.io#readme"
+  "homepage": "https://github.com/vuenos-aires/vuenos-aires.github.io#readme",
+  "devDependencies": {
+    "serve": "^6.0.6"
+  }
 }

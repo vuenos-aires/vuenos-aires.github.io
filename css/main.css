@@ -37,6 +37,12 @@ footer {
   left: 0px;
   bottom: 0px;
   height: 100px;
+  padding: 10px;
   width: 100%;
   background: #344960;
+}
+
+footer img {
+  height: 30px;
+  width: auto;
 }
