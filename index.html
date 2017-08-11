@@ -1,45 +1,57 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>✌️ Vuenos Aires</title>
-    
+    <title>Vuenos Aires meetup</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.4">
     <link rel="stylesheet" href="./css/main.css">
-  </head>
-  <body>
-    <header>
-      <a href="http://meetupjs.com.ar/calendario.html" target="_blank">eventos</a>
-      <a href="https://github.com/vuenos-aires/charlas" target="_blank">cfp</a>
-      <a href="https://github.com/vuenos-aires/charlas/blob/master/CONDUCT.md" target="_blank">código de conducta</a>
+    <link rel="icon" href="/img/vue.png" type="image/png">
+</head>
+<body class="flex flex-column navy sans-serif vh-100 w-100" style="min-width: 960px;">
+    <header class="b--black-10 bb bg-white pa3 w-100">
+        <div class="center flex items-center justify-between mw8">
+            <h1 class="f3 ma0">
+                <a href="/" class="dib link navy">Vuenos Aires</a>
+            </h1>
+            <div class="flex">
+                <a href="http://meetupjs.com.ar/calendario.html" target="_blank" class="b green link" title="Ver todos los eventos de la comunidad 😎">Eventos</a>
+                <a href="https://github.com/vuenos-aires/charlas" target="_blank" class="b green link ml4" title="¿Querés dar una charla? 😉">Charlas</a>
+                <a href="https://github.com/vuenos-aires/charlas/blob/master/CONDUCT.md" target="_blank" class="b green link ml4" title="TL;DR: No seas un imbécil">Código de Conducta</a>
+            </div>
+        </div>
     </header>
-    <main>
-      <h1>Vuenos Aires</h1>
-      <img src="./img/logo.png" alt="vuenos-aires">
-      <p style="text-align: center">
-        ✌️ <strong>Vuenos Aires</strong> es un meetup donde nos enfocamos en aprender, enseñar y difundir todo lo que tenga que ver con el ecosistema
-        de <a href="https://vuejs.org" target="_blank" style="font-size: inherit">Vue.js.</a>
-      </p>
-
-      <div>
-        <nav>
-          <a href="https://www.meetup.com/vuenos-aires" target="_blank">meetup</a>
-          <a href="http://slack.meetupjs.com.ar" target="_blank">slack</a>
-          <a href="https://twitter.com/vuenos_aires" target="_blank">twitter</a>
-          <a href="https://github.com/vuenos-aires" target="_blank">github</a>
-        </nav>
-      </div>
-
-      <footer>
-        <h3>Supported with 💚 by</h3>
-        <a href="https://htmlburger.com" target="_blank">
-          <img src="./img/htmlburger.png" alt="html-burger">
-        </a>
-        <a href="https://platzi.com" target="_blank">
-          <img src="./img/platzi.png" alt="platzi">
-        </a>
-      </footer>
+    <main class="bg-near-white flex flex-auto flex-column items-center justify-center w-100">
+        <div class="center mw7 tc">
+            <img src="./img/vuenosaires.svg" alt="Vuenos Aires meetup logo" class="h5 logo-animation v-btm" title="¡Gracias @camilunghi por el logo! 💪🏼">
+            <p class="f3 fw3 lh-title mt5 mb3">
+                <strong class="b">Vuenos Aires</strong>
+                es un meetup donde nos enfocamos en aprender, enseñar y difundir todo lo que tenga que ver con el ecosistema de
+                <a href="https://vuejs.org" target="_blank" class="b green link">Vue.js</a>
+            </p>
+            <p class="f3 fw3 lh-title ma0">
+                Publicamos eventos en
+                <a href="https://www.meetup.com/vuenos-aires" target="_blank" class="b f3 green link">Meetup</a>
+                y usamos
+                <a href="http://slack.meetupjs.com.ar" target="_blank" class="b f3 green link">Slack</a>
+                para comunicarnos. Las noticias las posteamos en
+                <a href="https://twitter.com/vuenos_aires" target="_blank" class="b f3 green link">Twitter</a>
+                y subimos código a
+                <a href="https://github.com/vuenos-aires" target="_blank" class="b f3 green link">Github</a>
+            </p>
+        </div>
     </main>
-  </body>
+    <footer class="b--black-10 bg-white bt pa3 tc w-100">
+        <div class="flex items-center justify-center">
+            <p class="ma0">Con el apoyo de</p>
+            <a href="https://htmlburger.com" target="_blank" class="ml4">
+                <img src="./img/htmlburger.png" alt="HTML Burger" class="h2 v-btm">
+            </a>
+            <a href="https://platzi.com" target="_blank" class="ml4">
+                <img src="./img/platzi.png" alt="Platzi" class="h2 v-btm">
+            </a>
+        </div>
+    </footer>
+</body>
 </html>

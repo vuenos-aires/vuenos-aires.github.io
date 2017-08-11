@@ -6,7 +6,6 @@
   <img width="30%" src="./img/logo.png">
 </p>
 
-
 ## ➕ Sumate!
 
 * 👫 [meetup](https://www.meetup.com/vuenos-aires)

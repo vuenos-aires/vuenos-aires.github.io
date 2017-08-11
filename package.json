@@ -2,7 +2,6 @@
   "name": "vuenos-aires.github.io",
   "version": "1.0.0",
   "description": "Sitio web de vuenos-aires, meetup de Vue.js en Buenos Aires.",
-  "main": "index.js",
   "scripts": {
     "start": "serve ."
   },
