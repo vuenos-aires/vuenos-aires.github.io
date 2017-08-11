@@ -1,65 +1,23 @@
-body {
-  font-family: Courier New, Courier, monospace;
-  color: #06BD7E;
-  text-align: center;
+/*
+    Overwriten tachyons styles
+*/
+
+.green {
+    color: #3eb882;
 }
 
-a {
-  color: #344960;
-  font-size: 1.5em;
+.navy {
+    color: #445b71;
 }
 
-a:hover {
-  color: #fff;
-  background: #344960;
+/*
+    END OF Overwriten tachyons styles
+*/
+
+.logo-animation {
+    transition: all .25s ease;
 }
 
-nav a {
-  margin-left: 20px;
-}
-
-h1 {
-  font-size: 3em;
-}
-
-p {
-  font-size: 1.5em;
-}
-
-img {
-  width: 30%;
-}
-
-main {
-  margin: auto;
-  width: 50%;
-  min-height: 600px;
-}
-
-footer {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  height: 100px;
-  padding: 5px;
-  width: 100%;
-  background: #344960;
-}
-
-header {
-  height: 30px;
-  padding-top: 5px;
-  text-align: right;
-  width: 100%;
-}
-
-header a {
-  font-size: 1.2em;
-  margin-right: 20px;
-}
-
-footer img {
-  height: 30px;
-  width: auto;
-  margin-left: 20px;
+.logo-animation:hover {
+    transform: scale(1.05) translate3d(0, 0, 0);
 }
