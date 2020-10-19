@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/vuenos-aires/vuenos-aires.github.io#readme",
   "devDependencies": {
-    "serve": "^6.0.6"
+    "serve": "^11.3.2"
   }
 }
